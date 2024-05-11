@@ -15,10 +15,6 @@ footer {
     grid-row: 3 / 4;
 }
 
-body, footer, html, .wrapper {
-    width: 100%;
-}
-
 .all-wrapper {
     width: 100%;
     display: grid;
@@ -394,3 +390,54 @@ span {
     font-weight: 300;
 }
 /* Footer */
+
+/* Media Q */
+@media screen and (max-width: 1380px) {
+    /* Cards Section */
+    .card-image {
+        width: 200px;
+        height: 140px;
+    }
+
+    .cards {
+        gap: 10px;
+    }
+
+    .card1, .card2, .card3 {
+        width: 230px;
+        height: 360px;
+    }
+
+    .c1-head, .c2-head, .c3-head {
+        font-size: 18px;
+    }
+
+    .c1-word, .c2-word, .c3-word {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    /* Cards Section */
+
+    /* Explanation */
+    .explanation-image {
+        padding-left: 5em;
+    }
+
+    .explanation-text {
+        padding-right: 5em;
+    }
+
+    .explanation-head {
+        font-size: 30px;
+    }
+    /* Explanation */
+    /* Footer */
+    .top-footer, .bot-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        padding: 25px 5em;
+    }
+    /* Footer */
+}
+/* Media Q */
